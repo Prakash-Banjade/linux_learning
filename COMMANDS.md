@@ -77,6 +77,18 @@ ubuntu@ip-exampleIP:~$ dig example.com
 ubuntu@ip-exampleIP:~$ lsof -i :port
 ```
 
+20. `history` - Show command history.
+
+```bash
+ubuntu@ip-exampleIP:~$ history
+```
+
+21 `which` - Show the location of a command.
+
+```bash
+ubuntu@ip-exampleIP:~$ which command{bash, ls, nano}
+```
+
 ## Operational Commands
 
 13. `ps` - Process Status: Display running processes.
