@@ -213,7 +213,7 @@ ubuntu@ip-exampleIP:~$ ping google.com
 32. `useradd` - Add User: Create a new user account.
 
 ```bash
-ubuntu@ip-exampleIP:~$ useradd newuser
+ubuntu@ip-exampleIP:~$ useradd -m -p password username
 ```
 
 13. `usermod` - Modify User: Modify user account properties.
