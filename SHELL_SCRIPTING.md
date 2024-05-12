@@ -99,6 +99,19 @@ echo "$i"
 done
 ```
 
+## While loop
+
+```bash
+#!/bin/bash   
+
+i=0
+while [ $i -le 10 ]
+do
+echo "$i"
+((i++)) # double parantheses is used for arithmetic expansion
+done
+```
+
 ### Creating multiple files
 
 ```bash
@@ -125,6 +138,8 @@ do
 echo $file # here you can simply remove files by using rm command
 done
 ```
+
+
 
 ## Functions
 
