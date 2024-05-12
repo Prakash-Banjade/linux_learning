@@ -28,6 +28,9 @@ ip-exampleIP
 ```
 
 7. `df` - Reports file system disk space usage.
+```bash
+ubuntu@ip-exampleIP:~$ df -H
+```
 
 8. `cat /etc/os-release` - Shows information about the operating system.
 
